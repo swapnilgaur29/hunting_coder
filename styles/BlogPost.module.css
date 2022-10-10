@@ -1,0 +1,32 @@
+.container {
+  padding: 0 22rem;
+}
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+
+.des{
+  /* border-radius: 30px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    text-align: justify;
+     font-size: 1rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding: 0 2rem;
+    }
+   
+    .h1{
+      text-align: center;
+    }
+}
